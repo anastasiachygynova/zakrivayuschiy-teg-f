@@ -66,7 +66,7 @@
   font-variation-settings: "wght" var(--main-thickness-text, 700);
   font-size: 1em;
   line-height: 100%;
-  margin: 4px 9px;
+  margin: 6px 9px;
 }
 .card__image-block {
   position: relative;
@@ -279,6 +279,10 @@ dialog::backdrop {
   .logo-group {
     inline-size: 100%;
     block-size: 49vh;
+  }
+
+  .watermark {
+    right: 11px;
   }
   .button__save {
     flex-direction: column;
