@@ -1,1 +1,22 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --main-font: Inter-Variable, sans-serif;
+  --accent-font: PressStart2P, monospace;
+  --accent-color: #000000;
+  --main-thickness-text: 700;
+  --card-text-thickness: 400;
+  --size-header-tag: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
+  --size-header-title: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
+  --bg-color: #fff;
+  --bg-image: repeating-linear-gradient(
+      90deg,
+      #d3d3d3 0 2px,
+      rgb(0 0 0 / 0) 2px 4px
+    ),
+    repeating-linear-gradient(180deg, #d3d3d3 0 2px, rgb(0 0 0 / 0) 2px 4px),
+    linear-gradient(180deg, #e7e7e7 0%, #e7e7e7 0.01%, #1a1a1a 100%);
+  --block-width: clamp(375px, 53%, 696px);
+  --color-contour: #000000;
+  --color-sparks: #ff0000;
+  --text-shadow: #ffffff;
+}
