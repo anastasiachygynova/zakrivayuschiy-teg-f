@@ -1,1 +1,1 @@
-https://github.com/anastasiachygynova/zakrivayuschiy-teg-f
+В этой папке будут храниться изображения для статей, а токже фавиконы и иконка для смартфона
