@@ -39,8 +39,8 @@
 .logo-group {
   inline-size: var(--block-width);
   margin: 0;
-  padding-top: 123px;
-  padding-bottom: 123px;
+  padding-top: 127px;
+  padding-bottom: 127px;
   background-color: var(--bg-color);
   border: 2px solid var(--accent-color);
 }
@@ -49,6 +49,7 @@
   line-height: 100%;
   font-size: var(--size-header-title);
   font-weight: var(--card-text-thickness);
+  text-transform: uppercase;
 }
 .main__section {
   display: grid;
